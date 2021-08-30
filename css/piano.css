@@ -1,0 +1,307 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+		html,body 
+		{
+			height: 100%;
+			width: 100%;
+			/*min-width: 1000px;*/
+			min-height: 100%;
+
+		}
+
+.alpha
+		{
+			text-align: center;
+			font-family: 'Open Sans',segoe ui light;
+			font-size: 18px;
+			color:white;
+			position: absolute;
+			top: 70%;
+			right: 0;
+			left: 0;
+			text-shadow: 1px 1px #000000;
+		}
+		.wrapper
+		{
+			display: inline-block;
+			position: relative;
+			cursor: pointer;
+			width: 6%;
+			height: 100%;
+			border-radius: 0px 0px 10px 10px; 
+			transition: box-shadow 0.1s; 
+			box-shadow: 0px 5px #888888;
+		}
+		#one:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #f0de68 , #e6c804);
+			/*background: linear-gradient(to top, #f0de68 , #e73ac9);*/
+		}
+		.eventone
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #f0de68 , #e6c804);
+		}
+		#two:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #a2eda7 , #6de375);
+		}
+		.eventtwo
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #a2eda7 , #6de375);
+		}
+		#three:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #197b68 , #075a4a);
+		}
+		.eventthree
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #197b68 , #075a4a);
+		}
+		#four:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #f2baba , #f19393);
+		}
+		.eventfour
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #f2baba , #f19393);
+		}
+		#five:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #a0efe5 , #65decf);
+		}
+		.eventfive
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #a0efe5 , #65decf);
+		}
+		#six:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #298930 , #025408);
+		}
+		.eventsix
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #298930 , #025408);
+		}
+		#seven:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #cef471 , #b2f60d);
+		}
+		.eventseven
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #cef471 , #b2f60d);
+		}
+		#eight:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #ae59c3 , #73048f);
+		}
+		.eventeight
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #ae59c3 , #73048f);
+		}
+		#nine:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #eb7d4d , #e75d22);
+		}
+		.eventnine
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #eb7d4d , #e75d22);
+		}
+		#ten:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #9aa1e6 , #6671dd);
+		}
+		.eventten
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #9aa1e6 , #6671dd);
+		}
+		#eleven:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #e99448 , #f07609);
+		}
+		.eventeleven
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #e99448 , #f07609);
+		}
+		#twelve:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #e7d6a4 , #e1c87c);
+		}
+		.eventtwelve
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #e7d6a4 , #e1c87c);
+		}
+		#thirteen:active
+		{
+			
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #4a4747 , #000000);
+		}
+		.eventthirteen
+		{
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			border-radius: 0px 0px 5px 5px; 
+			box-shadow: 0px 0px #888888;
+			background: linear-gradient(to top, #4a4747 , #000000);
+		}
+		
+		#tutorial
+		{
+			position:relative;
+			text-align:center;
+			font-family: 'Open Sans',segoe ui light;
+			font-size:13px;
+			width:100%;
+			display:inline-block;
+			line-height:150%;
+		}
+		#footer
+		{
+			position:relative;
+			text-align:center;
+			font-family: 'Open Sans',segoe ui light;
+			font-size:11px;
+			width:100%;
+			color:#075a4a;
+			display:inline-block
+		}
+		#panel
+		{
+			width: 100%;
+		}

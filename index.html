@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pic/piano.png">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/piano.css">
+    <link rel="stylesheet" href="css/index.css">
+	
+    <title>Online-Piano</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</head>
+ <body>
+
+
+	<audio id="player1" src="sounds/1.mp3"></audio>
+	<audio id="player2" src="sounds/2.mp3"></audio>
+	<audio id="player3" src="sounds/3.mp3"></audio>
+	<audio id="player4" src="sounds/4.mp3"></audio>
+	<audio id="player5" src="sounds/5.mp3"></audio>
+	<audio id="player6" src="sounds/6.mp3"></audio>
+	<audio id="player7" src="sounds/7.mp3"></audio>
+	<audio id="player8" src="sounds/8.mp3"></audio>
+	<audio id="player9" src="sounds/9.mp3"></audio>
+	<audio id="player10" src="sounds/10.mp3"></audio>
+	<audio id="player11" src="sounds/11.mp3"></audio>
+	<audio id="player12" src="sounds/12.mp3"></audio>
+	<audio id="player13" src="sounds/13.mp3"></audio>
+	<div style="text-align:center;height:55%;width:100%">
+
+		<div class="wrapper" id="one" style="background-color:#e6c804" onclick="document.getElementById('player1').currentTime = 0;document.getElementById('player1').play();">
+			<span class="alpha">Q<br><br><span style="font-family:sans-serif;font-size:12px;"><b>(C<sub>5</sub>)</b></span></span>
+		</div>
+		
+		<div class="wrapper" id="two" style="background-color:#6de375" onclick="document.getElementById('player2').currentTime = 0;document.getElementById('player2').play();">
+			<span class="alpha">W<br><br><span style="font-family:sans-serif;font-size:12px"><b>(C#<sub>5</sub>)</b></span></span>
+		</div>
+		<div class="wrapper" id="three" style="background-color:#075a4a" onclick="document.getElementById('player3').currentTime = 0;document.getElementById('player3').play();">
+			<span class="alpha">E<br><br><span style="font-family:sans-serif;font-size:12px"><b>(D<sub>5</sub>)</b></span></span>
+		</div>
+		<div class="wrapper" id="four" style="background-color:#f19393"onclick="document.getElementById('player4').currentTime = 0;document.getElementById('player4').play();">
+			<span class="alpha">R<br><br><span style="font-family:sans-serif;font-size:12px"><b>(D#<sub>5</sub>)</b></span></span>
+		</div>
+		<div class="wrapper" id="five" style="background-color:#65decf"onclick="document.getElementById('player5').currentTime = 0;document.getElementById('player5').play();">
+			<span class="alpha">T<br><br><span style="font-family:sans-serif;font-size:12px"><b>(E<sub>5</sub>)</b></span></span>
+		</div>
+		<div class="wrapper" id="six" style="background-color:#025408" onclick="document.getElementById('player6').currentTime = 0;document.getElementById('player6').play();">
+			<span class="alpha">Y<br><br><span style="font-family:sans-serif;font-size:12px"><b>(F<sub>5</sub>)</b></span></span>
+		</div>
+		<div class="wrapper" id="seven" style="background-color:#b2f60d" onclick="document.getElementById('player7').currentTime = 0;document.getElementById('player7').play();"> 
+			<span class="alpha">U<br><br><span style="font-family:sans-serif;font-size:12px"><b>(F#<sub>5</sub>)</b></span></span>
+		</div>
+		<div class="wrapper" id="eight" style="background-color:#73048f" onclick="document.getElementById('player8').currentTime = 0;document.getElementById('player8').play();">
+			<span class="alpha">I<br><br><span style="font-family:sans-serif;font-size:12px"><b>(G<sub>5</sub>)</b></span></span>
+		</div>
+		<div class="wrapper" id="nine" style="background-color:#e75d22" onclick="document.getElementById('player9').currentTime = 0;document.getElementById('player9').play();">
+			<span class="alpha">O<br><br><span style="font-family:sans-serif;font-size:12px"><b>(G#<sub>5</sub>)</b></span></span>
+		</div>
+		<div class="wrapper" id="ten" style="background-color:#6671dd" onclick="document.getElementById('player10').currentTime = 0;document.getElementById('player10').play();">
+			<span class="alpha">P<br><br><span style="font-family:sans-serif;font-size:12px"><b>(A<sub>5</sub>)</b></span></span>
+		</div>
+		<div class="wrapper" id="eleven" style="background-color:#f07609" onclick="document.getElementById('player11').currentTime = 0;document.getElementById('player11').play();">
+			<span class="alpha">[<br><br><span style="font-family:sans-serif;font-size:12px"><b>(A#<sub>5</sub>)</b></span></span>
+		</div>
+		<div class="wrapper" id="twelve" style="background-color:#e1c87c" onclick="document.getElementById('player12').currentTime = 0;document.getElementById('player12').play();">
+			<span class="alpha">]<br><br><span style="font-family:sans-serif;font-size:12px"><b>(B<sub>5</sub></b>)</span></span>
+		</div>
+		<div class="wrapper" id="thirteen" style="background-color:#000000" onclick="document.getElementById('player13').currentTime = 0;document.getElementById('player13').play();">
+			<span class="alpha">\<br><br><span style="font-family:sans-serif;font-size:12px"><b>(C<sub>6</sub></b>)</span></span>
+			
+		</div>
+ 
+ </div>
+
+
+<br><br><br><br>
+<div id="tutorial">
+	Don't know how to play a piano? We have some tutorials for you! <br><br><br>
+	<form>
+		Select what you wish to play : &nbsp
+		<select id="mySelect" style="font-family: 'Open Sans',segoe ui light;">
+			<option value="<b>Sa Re Ga Ma :</b>&nbsp Q-E-T-Y-I-P-]-\<br>">Sa Re Ga Ma</option>
+			<option value="<b>Happy Birthday :</b>&nbsp T-T-U-T-P-O&nbsp&nbsp&nbspT-T-U-T-]-P&nbsp&nbsp&nbspT-T-W-P-O-O-U&nbsp&nbsp&nbspE-E-W-P-]-P<br>">Happy Birthday</option>
+			<option value="<b>Papa Kehte Hain :</b>&nbsp T-T-E-Q-E-I-P-\-Y-T-E&nbsp&nbsp&nbspT-T-E-Q-E-I-P-\-Y-T-E&nbsp&nbsp&nbspI-P-]-\-\-\-\-]-P-P&nbsp&nbsp&nbspP-P-I-Y-Y-T-Y-I<br>">Papa Kehte Hain</option>
+			<option value="<b>Tum Hi Ho :</b>&nbsp T-I-]-\-I-P-U&nbsp&nbsp&nbspT-I-]-\-I-P-U&nbsp&nbsp&nbspT-I-]-\-I-P-U&nbsp&nbsp&nbspY-O-\-O-[&nbsp&nbsp&nbspY-O-\-O-[&nbsp&nbsp&nbspY-[-O-I-Y-I-R-Y&nbsp&nbsp&nbsp\-O-[-Y-O-\-O-[&nbsp&nbsp&nbspI-Y-I-[-O-I-Y-I-R-Y<br>">Tum Hi Ho</option>
+			<option value="<b>Kuch Kuch Hota Hain :</b>&nbsp T-Y-T-E-Q-T&nbsp&nbsp&nbspT-Y-T-E-Q-T&nbsp&nbsp&nbspE-T-E-Q-]-E-I&nbsp&nbsp&nbspQ-E-T-E-Q-Q-Q&nbsp&nbsp&nbspQ-E-T-Y-P-I&nbsp&nbsp&nbspQ-E-T-P-P-I&nbsp&nbsp&nbspE-T-E-Q-]-E-I&nbsp&nbsp&nbspQ-E-T-E-Q-Q-Q<br>">Kuch Kuch Hota Hain</option>
+			<option value="<b> Titanic Theme :</b>&nbsp Y-Y-Y-Y-T-Y&nbsp&nbsp&nbspY-T-Y-I-P-I&nbsp&nbsp&nbspY-Y-Y-Y-T-Y&nbsp&nbsp&nbspY-Q&nbsp&nbsp&nbspY-Y-Y-Y-T-Y&nbsp&nbsp&nbspY-T-Y-I-P-I&nbsp&nbsp&nbspY-Y-Y-Y-T-Y&nbsp&nbsp&nbspY-Q&nbsp&nbsp&nbspY-I-\-Q-[-P-I&nbsp&nbsp&nbspP-[-P-I-Y-T-Y&nbsp&nbsp&nbspY-T-Y-I-P-I-Y<br>">Titanic Theme</option>
+			<option value="<b> Jingle Bells :</b>&nbsp E-]-P-I-E&nbsp&nbsp&nbspE-E-E-]-P-I-T&nbsp&nbsp&nbspT-\-]-P-U&nbsp&nbsp&nbspE-E-\-P-]&nbsp&nbsp&nbspE-]-P-I-E&nbsp&nbsp&nbspE-]-P-I-T&nbsp&nbsp&nbspT-T-\-]-P-E-E-E&nbsp&nbsp&nbspE-\-E-]-P-I&nbsp&nbsp&nbspT-T-T-T-T-T-T-I-Q-E-T&nbsp&nbsp&nbspY-Y-Y-T-T-T-T-E-E-T-E-I&nbsp&nbsp&nbspT-T-T-T-T-T-T-I-Q-E-T&nbsp&nbsp&nbspY-Y-Y-T-T-T-I-I-Y-E-Q <br>">Jingle Bells</option>
+		</select> &nbsp
+		<button type="button" style="font-family: 'Open Sans',segoe ui light;" onclick="myFunction()">Show Tutorial</button>
+	</form>
+	<br>
+	<p id="music" style="font-family: 'Open Sans',segoe ui light;"></p>
+</div>
+<br><br><br><br>
+
+<div id="footer">
+	<div style="position:relative;bottom:1.5%;">
+		 
+		<hr>
+		Developed by: <b>Harryyom ydv   </b><span style="cursor: pointer;position: relative;top: 7px;">&nbsp<a href="https://in.linkedin.com/in/harryyom-ydv" target="_blank"><img src="icons/in.png" width="25px"></a>&nbsp<a href="https://github.com/harryydv26/" target="_blank"><img src="icons/git.png" width="25px"></a>
+		
+        <br>
+	</div>
+</div>
+
+
+<script src="index.js"></script>   
+</body>
+</html>
